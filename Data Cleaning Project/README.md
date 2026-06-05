@@ -1,42 +1,49 @@
-Data Cleaning in SQL
-Welcome to the Data Cleaning in SQL repository! This project demonstrates the application of SQL techniques to clean and prepare raw datasets for analysis. It serves as a practical example of how to transform messy data into structured, reliable information using SQL.
+# Data Cleaning Project using MySQL
 
-🧹 Project Overview
-In this project, I focused on cleaning a raw dataset by addressing common data quality issues such as:
+Welcome to the Data Cleaning Project repository! This project demonstrates how raw data can be transformed into clean, consistent, and analysis-ready data using MySQL.
 
-Removing duplicates
-Handling missing or NULL values
-Standardizing data formats
-Correcting data inconsistencies
-The goal was to prepare the dataset for further analysis, ensuring its integrity and reliability.
+## 📌 Project Overview
 
-🛠️ Tools & Technologies
-SQL: Utilized SQL queries for data manipulation and cleaning.
-MySQL Workbench: Executed SQL scripts and managed the database.
-CSV Files: Worked with CSV files for importing and exporting data.
-📁 Repository Structure
-Dataset/: Contains the raw and cleaned datasets in CSV format.
-Data Cleaning SQL Project Queries.sql: SQL script file with all the queries used for data cleaning tasks.
-🔍 Key SQL Techniques Used
-SELECT DISTINCT – To identify and remove duplicate records
-IS NULL / IS NOT NULL – For detecting and handling missing values
-UPDATE – To correct data inconsistencies
-ALTER TABLE – For modifying table structures when necessary
-🚀 Getting Started
-To replicate this project:
+In this project, I performed various data cleaning operations, including:
 
-Clone the repository:
-git clone https://github.com/Shivangkus/Data-Cleaning-in-SQL.git
-Open the Data Cleaning SQL Project Queries.sql file in MySQL Workbench.
+- Removing duplicate records
+- Handling NULL values
+- Standardizing date formats
+- Correcting inconsistent data
+- Improving data quality
 
-Execute the SQL queries step by step to clean the dataset.
+The goal was to prepare the dataset for accurate reporting and analysis.
 
-Import the cleaned dataset into your preferred analysis tool.
+## 🛠️ Tools & Technologies
 
-📈 Next Steps After cleaning the data, you can proceed with:
+- MySQL
+- MySQL Workbench
+- SQL Queries
+- CSV Dataset
 
-Exploratory Data Analysis (EDA) – To uncover patterns and insights
+## 📂 Project Files
 
-Data Visualization – Using tools like Tableau or Power BI
+- `Data_Cleaning.sql` – SQL script containing all cleaning queries
+- `Dataset.csv` – Raw dataset used for cleaning
+- `README.md` – Project documentation
 
-Statistical Analysis – For deeper understanding and modeling
+## 🔍 Data Cleaning Steps
+
+1. Import Dataset
+2. Identify Duplicates
+3. Remove Duplicate Records
+4. Handle Missing Values
+5. Standardize Data Formats
+6. Validate Cleaned Data
+
+## 🎯 Key Skills Demonstrated
+
+- Data Cleaning
+- SQL Query Writing
+- Data Transformation
+- Database Management
+- Problem Solving
+
+## 👨‍💻 Author
+
+Praveen Kanth
